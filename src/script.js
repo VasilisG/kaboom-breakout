@@ -19,7 +19,3 @@ addEnd();
 startGame();
 
 // debug.inspect = true
-
-// https://freesound.org/people/LittleRobotSoundFactory/sounds/270324/
-// https://freesound.org/people/LittleRobotSoundFactory/sounds/270322/
-// https://freesound.org/people/LittleRobotSoundFactory/sounds/270306/
