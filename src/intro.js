@@ -23,13 +23,23 @@ function addIntro() {
             origin('center'),
             fixed()
         ]);
+
+        add([
+            text(GAME_CONTROLS_0, {
+                size: 20,
+                font: "sink",
+            }),
+            pos(width() / 2, height() / 4 + 175),
+            origin('center'),
+            fixed()
+        ]);
     
         add([
             text(GAME_CONTROLS_1, {
                 size: 20,
                 font: "sink",
             }),
-            pos(width() / 2, height() / 4 + 150),
+            pos(width() / 2, height() / 4 + 225),
             origin('center'),
             fixed()
         ]);
@@ -39,7 +49,7 @@ function addIntro() {
                 size: 20,
                 font: "sink",
             }),
-            pos(width() / 2, height() / 4 + 200),
+            pos(width() / 2, height() / 4 + 275),
             origin('center'),
             fixed()
         ]);
@@ -63,14 +73,14 @@ function addIntro() {
 
         onUpdate(() => {
             if(forth){
-                blinkTime += (Math.PI / 120);
+                blinkTime += (Math.PI / 60);
                 if(blinkTime >= Math.PI / 2){
                     forth = false;
                     blinkTime = Math.PI / 2;
                 } 
             }
             else {
-                blinkTime -= (Math.PI / 120);
+                blinkTime -= (Math.PI / 60);
                 if(blinkTime <= 0){
                     forth = true;
                     blinkTime = 0;

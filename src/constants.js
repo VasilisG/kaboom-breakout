@@ -1,5 +1,6 @@
 const GAME_TITLE = 'Kaboom Breakout';
 const GAME_CONTROLS_TITLE = 'Controls';
+const GAME_CONTROLS_0 = 'SPACE: Launch ball';
 const GAME_CONTROLS_1 = 'LEFT-RIGHT arrows: Move horizontal paddles';
 const GAME_CONTROLS_2 = 'UP-DOWN arrows: Move vertical paddles';
 const GAME_PRESS_ANY_KEY = 'Press any key to continue...';
